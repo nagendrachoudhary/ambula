@@ -1,0 +1,28 @@
+.Card{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  height: 700px;
+  margin-top:60px;
+}
+button{
+  background:#c31108 ;
+  color: aliceblue;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(190, 186, 186);
+  color: #c31108;
+}
+nav{
+  background-color: aliceblue;
+  position: fixed;
+  top: 0;
+  
+}
